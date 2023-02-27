@@ -1,0 +1,87 @@
+:root {
+  --color-primary: #469580;
+  --color-secondary: #f34541;
+  --color-text: #fff;
+  --color-title: #c1c1c1;
+  --color-background: #000;
+  --spacing-0: 0px;
+  --spacing-s: 10px;
+  --spacing-m: 20px;
+  --spacing-l: 30px;
+}
+
+body {
+  background: var(--color-background);
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-text {
+  display: inline;
+  margin: 0;
+  border: none;
+  border-radius: 0.4rem;
+  padding: var(--spacing-s);
+}
+
+.list ul li button {
+  position: absolute;
+  right: 0%;
+  background: var(--color-secondary);
+  color: var(--color-text);
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: var(--spacing-s);
+  margin-right: var(--spacing-s);
+  padding: var(--spacing-s);
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.add-btn {
+  color: var(--color-text);
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--color-primary);
+  margin: var(--spacing-m);
+  padding: var(--spacing-s);
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.app-title {
+  text-align: center;
+  color: var(--color-title);
+  font-size: 70px;
+}
+
+ul {
+  margin: var(--spacing-0);
+  padding: var(--spacing-0);
+}
+
+.list ul li {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  line-height: var(--spacing-l);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cccccc;
+  padding: var(--spacing-s);
+  position: relative;
+}
+
+.container {
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+}
